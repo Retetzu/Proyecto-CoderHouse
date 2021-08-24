@@ -1,0 +1,25 @@
+@import "./common";
+
+#titulo {
+    font-size: $font-size;
+    font-weight: $font-weight;
+    letter-spacing: $letter-space;
+}
+
+#titulo:hover {
+    transform: skewX(15deg);
+}
+
+nav {
+     ul {
+        li {
+            margin: $margin-nav;
+            a {
+                font-family: Arial, cursive;
+            }
+        }
+    }
+}
+
+
+

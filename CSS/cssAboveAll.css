@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap");
+#titulo {
+  font-size: 40px;
+  font-weight: 900;
+  letter-spacing: 2px; }
+
+#titulo:hover {
+  transform: skewX(15deg); }
+
+nav ul li {
+  margin: 20px; }
+  nav ul li a {
+    font-family: Arial, cursive; }
+
+#colorColapsed {
+  background: crimson;
+  border: none;
+  margin: 20px; }
+
+#imgDestacados {
+  background-color: black;
+  display: flex;
+  flex-direction: row; }
+  #imgDestacados Img {
+    width: 300px;
+    margin: 5px; }
+
+footer {
+  color: crimson;
+  font-family: 'Zen Tokyo Zoo', cursive;
+  font-size: 40px; }
+  footer .flexBox {
+    display: flex;
+    flex-flow: column wrap; }
+    footer .flexBox .flexButton {
+      font-size: 40px;
+      background-color: #691f2e;
+      border: none;
+      margin: 10px;
+      padding: 30px;
+      display: flex;
+      justify-content: center; }
+
+#carouselIMG {
+  height: 600px; }

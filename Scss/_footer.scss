@@ -1,0 +1,39 @@
+@import "./common";
+
+#colorColapsed { 
+      background: $bg-color;
+      border: none;
+      margin: $margin-nav;
+}
+             
+#imgDestacados {
+                 
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+                Img {
+                   width: $width;
+                   margin: 5px;
+                }
+}         
+
+
+
+footer {
+      color: $bg-color;
+      font-family: 'Zen Tokyo Zoo', cursive;
+      font-size: $font-size;
+    .flexBox {
+        display: $displayFlex;
+        flex-flow: $flex-flow;
+          .flexButton {
+                font-size: $font-size;
+                background-color: rgb(105, 31, 46);
+                border: none;
+                margin: 10px;
+                padding: $padding-footer;
+                display: $displayFlex;
+                justify-content: center;
+        }
+    }
+}
