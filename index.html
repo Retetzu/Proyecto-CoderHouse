@@ -3,21 +3,27 @@
  <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width-device-width, initial-scale=1.0">
-   <title>Sport Things</title>
+   <title>Sport King</title>
    <meta name="description" content="Venta de articulos deportivos nacional Online">
    <meta name="keywords" content="Kletbells, Discos Fundicion, Mancuernas, Barras, Boxeo">
    <meta name="author" content="Javier.com.ar"> 
    <link rel="stylesheet" href="./CSS/cssAboveAll.css">
    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
- </head>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+   <link rel="icon" type="image/png" href="./IMG/png-transparent-fitness-centre-physical-fitness-logo-dumbbell-text-trademark-monochrome.png">
+  </head>
    
  <body>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
   <header>
+  <div  id="span-Header">
+    <i class="fab fa-instagram"></i> <i class="fab fa-facebook-f"></i> <i class="fab fa-twitter"></i>
+    <span> 10% de descuentos en productos seleccionados </span> 
+  </div>
    <div class="container" id="top">
    <nav id="navColor" class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
-      <a id="titulo" class="navbar-brand" href="./index.html">Sport Things</a>
+      <a id="titulo" class="navbar-brand" href="./index.html">Sport King</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -34,18 +40,18 @@
               Productos
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="./Productos.html">Equipa tu Gimnasio</a></li>
-              <li><a class="dropdown-item" href="./Productos.html">Productos Fundicion</a></li>
+              <li><a class="dropdown-item" href="./HTML/Productos.html">Equipa tu Gimnasio</a></li>
+              <li><a class="dropdown-item" href="./HTML/Productos.html">Productos Fundicion</a></li>
               <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="./Productos.html">Ropa Deportiva</a></li>
+              <li><a class="dropdown-item" href="./HTML/Productos.html">Ropa Deportiva</a></li>
             </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link disabled" href="./HTML/Sobrenosotros.html" tabindex="-1" aria-disabled="true">Sobre nosotros</a>
+            <a class="nav-link active" aria-current="page" href="./HTML/Sobrenosotros.html">Sobre Nosotros</a>
           </li>
         </ul>
-        <form class="d-flex">
-          <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+        <form id="navInput" class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Producto" aria-label="Search">
           <button class="btn btn-outline-success" type="submit">Buscar</button>
         </form>
       </div>
@@ -105,35 +111,107 @@
       </a>
     </p>
     <div class="collapse" id="collapseExample">
-      <div class="card card-body" id="imgDestacados">
-         <img id="destacadosImg" src="./IMG/1415193475.jpg">
-         <img id="destacadosImg" src="./IMG/2228.jpg">
-         <img id="destacadosImg" src="./IMG/450_1000.jpg">
-         <img id="destacadosImg" src="./IMG/4524.jpg">
+
+<!--Collapse cards-->
+
+      <div class="card card-body">
+        <div id="productosDestacados">
+        <div class="card" style="width: 14rem;">
+          <img src="./IMG/1415193475.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Barra</h5>
+            <p class="card-text">Barra Olimpica (Cromada)</p>
+            <a href="./HTML/Productos.html" id="card-Button" class="btn btn-primary">Comprar</a>
+          </div>
+        </div>
+        <div class="card" style="width: 14rem;">
+          <img src="./IMG/2228.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Barra dominadas</h5>
+            <p class="card-text">Barra para habitacion</p>
+            <a href="./HTML/Productos.html" id="card-Button" class="btn btn-primary">Comprar</a>
+          </div>
+        </div>
+        <div class="card" style="width: 14rem;">
+          <img src="./IMG/kettlebell-5679666_1280.jpg" class="card-img-top" alt="Pesa rusa, kettlebell">
+          <div class="card-body">
+            <h5 class="card-title">kettlebell</h5>
+            <p class="card-text">Pesas rusas</p>
+            <a href="./HTML/Productos.html" id="card-Button" class="btn btn-primary">Comprar</a>
+          </div>
+        </div>
+        <div class="card" style="width: 14rem;">
+          <img src="./IMG/450_1000.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Barra romana</h5>
+            <p class="card-text">Barra para ejercicios de triceps</p>
+            <a href="./HTML/Productos.html" id="card-Button" class="btn btn-primary">Comprar</a>
+          </div>
+        </div>
+        <div class="card" style="width: 14rem;">
+          <img src="./IMG/4524.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Mancuernas</h5>
+            <p class="card-text">Mancuernas exagonales (Disponibles de 5 a 15kg)</p>
+            <a href="./HTML/Productos.html" id="card-Button" class="btn btn-primary">Comprar</a>
+          </div>
+        </div>
+
+        <!--Collapse cards-->
+
     </div>
-     <!-- <section class="Destacados">
-       Productos Destacados
-       <div>
-         <img id="destacadosImg" src="./IMG/1415193475.jpg">
-         <img id="destacadosImg" src="./IMG/2228.jpg">
-         <img id="destacadosImg" src="./IMG/450_1000.jpg">
-         <img id="destacadosImg" src="./IMG/4524.jpg">
-       </div>
-     </section> -->
+    
    </fieldset>
 
    <!-- collapse -->
 
+  <!-- Product cards-->
+  <div class="container-super">
+    <div class="product-card">
+      <img src="./IMG/kettlebell-5679666_1280.jpg" alt="" class="product-img">
+       <div class="product-description">
+         <h5 class="product-title"> Pesas Rusas</h5>
+          <span class="product-price"> $3000.00</span>
+       </div>
+       <i class="fas fa-shopping-cart"></i>
+    </div>
+    <div class="product-card">
+      <img src="./IMG/kettlebell-5679666_1280.jpg" alt="" class="product-img">
+       <div class="product-description">
+         <h5 class="product-title"> Pesas Rusas</h5>
+          <span class="product-price"> $3000.00</span>
+       </div>
+       <i class="fas fa-shopping-cart"></i>
+    </div>
+    <div class="product-card">
+      <img src="./IMG/kettlebell-5679666_1280.jpg" alt="" class="product-img">
+       <div class="product-description">
+         <h5 class="product-title"> Pesas Rusas</h5>
+          <span class="product-price"> $3000.00</span>
+       </div>
+       <i class="fas fa-shopping-cart"></i>
+    </div>
+    <div class="product-card">
+      <img src="./IMG/kettlebell-5679666_1280.jpg" alt="" class="product-img">
+       <div class="product-description">
+         <h5 class="product-title"> Pesas Rusas</h5>
+          <span class="product-price"> $3000.00</span>
+       </div>
+       <i class="fas fa-shopping-cart"></i>
+    </div>
+  </div>
+  <!-- Product cards-->
+
+  <!--Instagram-->
+  <div class="instagram-Container">
+    <i class="fab fa-instagram"> Sport King</i>
+  </div>
+  <!--Instagram-->
+
+
    <fieldset>
-     <footer id="abajo">
-      Informacion adicional
-        <div class="flexBox">
-          <button class="flexButton">Como encontrarnos</button>
-          <button class="flexButton">Empresas afiliadas</button>
-          <button class="flexButton">Contribuidores</button>
-        </div>
       <a href="#top">
-        <button type="button" class="btn btn-danger">Top</button>
+        <button id="button-Top" type="button" class="btn btn-danger">Inicio</button>
       </a>
      </footer>
   </fieldset>

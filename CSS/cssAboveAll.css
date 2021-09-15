@@ -1,48 +1,178 @@
 @import url("https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&display=swap");
 #titulo {
-  font-size: 40px;
-  font-weight: 900;
-  letter-spacing: 2px; }
+  display: inline-block;
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 0px #911818;
+  transition-duration: 0.3s;
+  transition-property: transform;
+  font-family: "Open Sans", sans-serif; }
 
 #titulo:hover {
-  transform: skewX(15deg); }
+  margin: .4em;
+  padding: 1em;
+  cursor: pointer;
+  background: #ffffff;
+  text-decoration: none;
+  color: #646464;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-font-smoothing: antialiased; }
 
-nav ul li {
-  margin: 20px; }
-  nav ul li a {
-    font-family: Arial, cursive; }
+#span-Header {
+  display: flex;
+  flex-direction: row;
+  text-align: center; }
+
+#span-Header i {
+  padding: 10px; }
+
+#span-Header span {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-left: 350px;
+  margin-top: 10px; }
+
+nav {
+  margin-bottom: 20px; }
+  nav ul li {
+    margin: 20px; }
+    nav ul li a {
+      font-family: 'Open Sans', sans-serif;
+      color: black; }
+
+#navInput input {
+  background-color: white;
+  border: #22a128 1px solid;
+  border-radius: 5px; }
 
 #colorColapsed {
-  background: crimson;
+  background: black;
   border: none;
   margin: 20px; }
 
-#imgDestacados {
-  background-color: black;
+#productosDestacados {
   display: flex;
   flex-direction: row; }
-  #imgDestacados Img {
-    width: 300px;
-    margin: 5px; }
+
+#productosDestacados div {
+  margin-left: 10px;
+  margin-right: 10px; }
+
+#card-Button {
+  color: black;
+  background-color: white;
+  border: black 1px solid; }
+
+#button-Top {
+  background-color: white;
+  border: black 1px solid;
+  color: black;
+  font-family: 'Open Sans', sans-serif;
+  margin: 10px; }
+
+.instagram-Container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 20px;
+  margin: 80px; }
+
+#instagram-acces {
+  font-family: "Open Sans", sans-serif; }
 
 footer {
-  color: crimson;
-  font-family: 'Zen Tokyo Zoo', cursive;
+  color: black;
+  font-family: 'Open Sans', sans-serif;
   font-size: 40px; }
-  footer .flexBox {
-    display: flex;
-    flex-flow: column wrap; }
-    footer .flexBox .flexButton {
-      font-size: 40px;
-      background-color: #691f2e;
-      border: none;
-      margin: 10px;
-      padding: 30px;
-      display: flex;
-      justify-content: center; }
 
 #carouselIMG {
   height: 600px; }
+
+#colorColapsed {
+  border: black 1px solid;
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+  background-color: white; }
+
+.search-side-super {
+  text-align: center; }
+
+.search-side {
+  margin: 40px;
+  text-align: center;
+  border-radius: 2px grey; }
+
+.container-Side {
+  box-sizing: border-box;
+  font-family: 'Inconsolata', monospace; }
+
+.product-title {
+  text-align: center;
+  margin: 20px;
+  font-family: 'Inconsolata', monospace; }
+
+.container-super {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 20px; }
+
+.product-card {
+  border: 1px solid #9b9999;
+  padding: 20px;
+  margin: 20px;
+  font-family: "Open Sans", sans-serif;
+  text-align: center; }
+
+.product-img {
+  width: 80%; }
+
+.product-price {
+  color: #3c3d3d;
+  font-weight: bold;
+  font-family: 'Inconsolata', monospace; }
+
+.contact-super {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  text-align: center;
+  margin-top: 100px;
+  margin-left: 300px; }
+
+.contact-title {
+  margin-bottom: 50px;
+  text-align: center;
+  font-family: "Open Sans", sans-serif; }
+
+.contacto-Input {
+  margin: 10px; }
+
+.contacto-submit {
+  margin: 10px;
+  background-color: white; }
+
+.envio-title {
+  margin: 50px;
+  text-align: center;
+  font-family: "Open Sans", sans-serif; }
+
+h4 {
+  font-family: "Open Sans", sans-serif;
+  margin-top: 20px; }
+
+.sobrenosotros {
+  text-align: center; }
+
+.Sobrenosotros-text {
+  margin-top: 20px;
+  font-family: "Open Sans", sans-serif; }

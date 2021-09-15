@@ -1,25 +1,60 @@
 @import "./common";
 
 #titulo {
-    font-size: $font-size;
-    font-weight: $font-weight;
-    letter-spacing: $letter-space;
+    display: inline-block;
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 0px rgb(145, 24, 24);
+    transition-duration: 0.3s;
+    transition-property: transform;
+    font-family: $font-family;
 }
 
 #titulo:hover {
-    transform: skewX(15deg);
+    margin: .4em;
+    padding: 1em;
+    cursor: pointer;
+    background: #ffffff;
+    text-decoration: none;
+    color: rgb(100, 100, 100);
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-font-smoothing: antialiased;
+}
+
+#span-Header {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+#span-Header i {
+    padding: 10px;
+}
+
+#span-Header span {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-left: 350px;
+    margin-top: 10px;
 }
 
 nav {
+    margin-bottom: 20px;
      ul {
         li {
             margin: $margin-nav;
-            a {
-                font-family: Arial, cursive;
+          a {
+             font-family: 'Open Sans', sans-serif;
+             color: black;
             }
         }
     }
 }
 
-
+#navInput {
+    input {
+        background-color: rgb(255, 255, 255);
+        border: rgb(34, 161, 40) 1px solid;
+        border-radius: 5px;
+    }
+}
 
