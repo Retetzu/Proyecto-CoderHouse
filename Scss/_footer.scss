@@ -6,34 +6,44 @@
       margin: $margin-nav;
 }
              
-#imgDestacados {
-                 
-    background-color: black;
-    display: flex;
-    flex-direction: row;
-                Img {
-                   width: $width;
-                   margin: 5px;
-                }
-}         
+#productosDestacados {
+      display: flex;
+      flex-direction: row;
+}
 
+#productosDestacados div {
+      margin-left: 10px;
+      margin-right: 10px;
+}
 
+#card-Button {
+      color: black;
+      background-color: white;
+      border: black 1px solid;
+}
+
+#button-Top {
+      background-color: white;
+      border: black 1px solid;
+      color: black;
+      font-family: 'Open Sans', sans-serif;
+      margin: 10px;
+}
+
+.instagram-Container {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      padding: 20px;
+      margin: 80px;
+}
+
+#instagram-acces {
+      font-family: $font-family;
+}
 
 footer {
       color: $bg-color;
-      font-family: 'Zen Tokyo Zoo', cursive;
+      font-family: 'Open Sans', sans-serif;
       font-size: $font-size;
-    .flexBox {
-        display: $displayFlex;
-        flex-flow: $flex-flow;
-          .flexButton {
-                font-size: $font-size;
-                background-color: rgb(105, 31, 46);
-                border: none;
-                margin: 10px;
-                padding: $padding-footer;
-                display: $displayFlex;
-                justify-content: center;
-        }
-    }
 }

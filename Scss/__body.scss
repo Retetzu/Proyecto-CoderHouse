@@ -1,6 +1,111 @@
 @import "./common";
 
-
 #carouselIMG {
     height: 600px;
+}
+
+#colorColapsed {
+    border: black 1px solid;
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    background-color: white;
+}
+
+//product-Filter
+
+.search-side-super {
+    text-align: center;
+}
+
+.search-side {
+    margin: 40px;
+    text-align: center;
+    border-radius: 2px grey;
+}
+
+.container-Side {
+    box-sizing: border-box;
+    font-family: 'Inconsolata', monospace;;
+}
+
+//product
+
+.product-title {
+    text-align: center;
+    margin: 20px;
+    font-family: 'Inconsolata', monospace;
+}
+
+.container-super {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 20px;
+}
+
+.product-card {
+    border: 1px solid rgb(155, 153, 153);
+    padding: 20px;
+    margin: 20px;
+    font-family: $font-family;
+    text-align: center;
+}
+
+.product-img {
+    width: 80%;
+}
+
+.product-price {
+    color: #3c3d3d;
+    font-weight: bold;
+    font-family: 'Inconsolata', monospace;
+}
+
+//Contact
+
+.contact-super {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 300px;
+}
+
+.contact-title {
+    margin-bottom: 50px;
+    text-align: center;
+    font-family: $font-family;
+}
+
+.contacto-Input {
+    margin: 10px;
+}
+
+.contacto-submit {
+    margin: 10px;
+    background-color: white;
+}
+
+//Formas de envio
+
+.envio-title {
+    margin: 50px;
+    text-align: center;
+    font-family: $font-family;
+}
+
+h4 {
+    font-family: $font-family;
+    margin-top: 20px;
+}
+
+//Sobrenosotros
+
+.sobrenosotros {
+    text-align: center;
+}
+
+.Sobrenosotros-text {
+    margin-top: 20px;
+    font-family: $font-family;
 }

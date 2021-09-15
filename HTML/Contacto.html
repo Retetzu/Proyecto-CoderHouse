@@ -5,12 +5,21 @@
     <meta name="viewport" content="width-device-width, initial-scale=1.0">
     <title>Sport Things</title>
     <link rel="stylesheet" href="../CSS/cssAboveAll.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="icon" type="image/png" href="../IMG/png-transparent-fitness-centre-physical-fitness-logo-dumbbell-text-trademark-monochrome.png">
   </head>
  
   <body>
+    <div  id="span-Header">
+      <i class="fab fa-instagram"></i> <i class="fab fa-facebook-f"></i> <i class="fab fa-twitter"></i>
+      <span> 10% de descuentos en productos seleccionados </span> 
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
   <header>
+
+  <!--Nav-->
+    
    <div class="container" id="top">
    <nav id="navColor" class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
@@ -38,7 +47,7 @@
             </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link disabled" href="./Sobrenosotros.html" tabindex="-1" aria-disabled="true">Sobre nosotros</a>
+            <a class="nav-link active" aria-current="page" href="./Sobrenosotros.html">Sobre Nosotros</a>
           </li>
         </ul>
         <form class="d-flex">
@@ -49,22 +58,22 @@
     </div>
   </nav>
 </div>
-  </header>
 
-   <section> 
-       <h2>Informacion de Contacto</h2>
-        <label for="Contact">Ingrese su mail para contactar con usted:</label>
-         <input name="Contact" type="mail" placeholder="Mail del Usuario">
-    </section>
-     <textarea name="" id="" cols="30" rows="10" placeholder="Deje su mensaje aqui"></textarea>
-    <section>
-        <p>Donde nos encuentra</p>
-         <a href="https://www.google.com.ar/maps" target="_blank">
-          <img src="../IMG/mapa-calle-carretera-viaje-ilustracion-vector-simbolo-localizacion_1284-2005.webp" width="120px">
-         </a>
-   </section>
-   <a href="../Page.html">
-     <input value="Inicio" type="button">
+<!--Nav-->
+
+  </header>
+   <div class="contact-super">
+     <h2 class="contact-title">Informacion de Contacto</h2>
+         <input class="contacto-Input" type="text" placeholder="Nombre">
+         <input class="contacto-Input" type="phone" placeholder="Numero de Telefono">
+         <input class="contacto-Input" name="Contact" type="mail" placeholder="Mail del Usuario">
+           <textarea class="contacto-Input" name="" id="" cols="30" rows="10" placeholder="Deje su mensaje aqui"></textarea>
+            <input class="contacto-submit" type="submit" value="Enviar">
+  
+   </div>
+  
+   <a href="../index.html">
+     <input id="button-Top" value="Inicio" type="button">
    </a>
   </body>
  </html>
